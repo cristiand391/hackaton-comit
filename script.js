@@ -12,6 +12,7 @@ function showUserData() {
     document.querySelector("#repos").href= repo_url
     document.querySelector("#seguidores").innerText += ` ${user.followers}`
 
+    document.querySelector('#imagen').style.backgroundImage = `url(${user.avatar_url})`
 
   })
 }

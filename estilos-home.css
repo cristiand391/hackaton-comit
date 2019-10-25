@@ -3,11 +3,16 @@ body {
   font-family: 'Roboto', sans-serif;
 }
   
-  
+
+
 #ficha {
   background-color: cadetblue;
   padding-left: 100px;
   padding-right: 100px;
 }
     
-    
+#imagen {
+  width: 250px;
+  height: 250px;
+  background-size: 250px 250px;
+}
