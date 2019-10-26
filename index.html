@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Verificador de perfiles de Github</title>
-  <link href="estilos-home.css" rel="stylesheet">
+  <link href="estilos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 </head>
@@ -21,7 +21,7 @@
       <input id="username" type="text"> <br>
     </form>
 
-    <button onclick="showUserData()">comenzar</button>
+    <button id="btnClick">comenzar</button>
   </div>
 
   <div id="ficha">
@@ -34,11 +34,21 @@
     <p id="nombre">Nombre: </p>
 
     <p id="ubicacion">Ubicacion: </p>
-    <p>URL: <a href="" id="url"></a></p>
+    <p>URL: <a target="_blank" href="" id="url"></a></p>
     <p id="seguidores">Seguidores: </p>
-    <p>Repos_url: <a href="" id="repos"></a></p>
+    <p>Repos_url: <a target="_blank" href="" id="repos"></a></p>
 
   </div>
+
+  <div id="mostrarInfoRepositorio">
+        <h3>Nombre del repositorio</h3>
+        <div id="info">
+
+        </div>  
+  </div>
+
+
+
   <script src="script.js"></script>
 </body>
 
